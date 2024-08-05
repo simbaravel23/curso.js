@@ -5,3 +5,5 @@ do {
   resultado += i + " ";
 } while (i < 5);
 document.getElementById("exemplo").innerHTML = resultado;
+
+
