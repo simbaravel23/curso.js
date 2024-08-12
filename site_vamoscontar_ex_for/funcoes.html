@@ -12,6 +12,9 @@
         <section>
            <input type="text" name="parimp" id="parimp" >
            <input type="button" value="verificar" onclick="parimp(n)">
+
+           <input type="text" name="soma" id="soma">
+           <input type="button" value="somar" onclick="soma(n1,n2)">
         </section>
     </header>
     
@@ -30,6 +33,14 @@
     let num = document.getElementById("parimp")
     let res = parimp ('parimp')
     res.innerText = 'parimp()'
+
+    function soma (n1=0,n2=0){
+        return n1 + n2
+    }
+
+    //console.log(soma(2+3))
+
+
 
 </script>
 </body>
